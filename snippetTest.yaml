@@ -1,0 +1,33 @@
+AWSTemplateFormatVersion: 2010-09-09
+Description: |
+  A basic eC2 instance
+Parameters:
+  InstanceType:
+    Description: EC2 instance type
+    Type: String
+    Default: t2.micro
+  Subnet:
+Resources:
+  LogicalID:
+    Type: AWS::EC2::CapacityReservation
+    Properties:
+      AvailabilityZone: "String" # Required
+      EbsOptimized: false
+      EndDate: "String"
+      EndDateType: "String"
+      EphemeralStorage: false
+      InstanceCount: Number # Required
+      InstanceMatchCriteria: "String"
+      InstancePlatform: "String" # Required
+      InstanceType: "String" # Required
+      OutPostArn: "String"
+      PlacementGroupArn: "String"
+      TagSpecifications:
+        TagSpecifications
+      Tenancy: "String"
+Outputs:
+  LogicalID:
+    Description: Information about the value
+    Value:
+    Export:
+      Name:
