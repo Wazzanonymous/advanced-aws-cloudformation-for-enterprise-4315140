@@ -20,10 +20,12 @@ Parameters:
     Description: a reference to the AMI you want
     Type: AWS::EC2::Image::Id
     Default: ami-02396cdd13e9a1257
+
   InstanceName:
     Description: The Name tag that will get applied to the instance
     Type: String
     Default: NginxWebServer
+
 Resources:
   SecurityGroupHTTPFromWorld:
     Type: AWS::EC2::SecurityGroup
@@ -37,6 +39,7 @@ Resources:
           FromPort: 22
           ToPort: 22
           CidrIp: 0.0.0.0/0
+      #VpcId: !Ref VpcId
       # Do I need VPC ID?
   MyInstance:
     Type: AWS::EC2::Instance

@@ -1,0 +1,687 @@
+[2023-05-10T05:24:35Z] DEBUG    - Logging set up successfully
+[2023-05-10T05:24:35Z] DEBUG    - Running None: Namespace(version=False, subparser_name=None, command=<function init at 0x7f19300385e0>, verbose=0, force=False, type_name=None, artifact_type=None, endpoint_url=None, region=None, target_schemas=[], profile=None)
+[2023-05-10T05:24:35Z] DEBUG    - Root directory: /home/waz/Documents/AWS/edu/CloudFormation/modules
+[2023-05-10T05:24:35Z] WARNING  - Initializing new project
+[2023-05-10T05:24:35Z] DEBUG    - Loading project file '/home/waz/Documents/AWS/edu/CloudFormation/modules/.rpdk-config'
+[2023-05-10T05:43:23Z] DEBUG    - Resource type identifier: WAZ::Demo::WebStack::MODULE
+[2023-05-10T05:43:23Z] DEBUG    - Overwriting '/home/waz/Documents/AWS/edu/CloudFormation/modules/.rpdk-config'
+[2023-05-10T05:43:23Z] DEBUG    - Fragment directory: /home/waz/Documents/AWS/edu/CloudFormation/modules/fragments
+[2023-05-10T05:43:23Z] DEBUG    - Overwriting '/home/waz/Documents/AWS/edu/CloudFormation/modules/fragments/sample.json'
+[2023-05-10T05:43:23Z] WARNING  - Initialized a new project in /home/waz/Documents/AWS/edu/CloudFormation/modules
+[2023-05-10T05:43:23Z] DEBUG    - Finished None
+[2023-05-10T05:43:55Z] DEBUG    - Logging set up successfully
+[2023-05-10T05:43:55Z] DEBUG    - Running submit: Namespace(version=False, subparser_name='submit', command=<function submit at 0x7fe37e313ec0>, verbose=0, dry_run=False, endpoint_url=None, region=None, set_default=False, profile=None, role_arn=None, use_role=True)
+[2023-05-10T05:43:55Z] DEBUG    - Root directory: /home/waz/Documents/AWS/edu/CloudFormation/modules
+[2023-05-10T05:43:55Z] DEBUG    - Loading project file '/home/waz/Documents/AWS/edu/CloudFormation/modules/.rpdk-config'
+[2023-05-10T05:43:55Z] INFO     - Validating your module fragments...
+[2023-05-10T05:43:55Z] DEBUG    - Fragment directory: /home/waz/Documents/AWS/edu/CloudFormation/modules/fragments
+[2023-05-10T05:43:55Z] DEBUG    - Search for key Ref as far down as the template goes
+[2023-05-10T05:43:55Z] DEBUG    - Search for key Fn::Sub as far down as the template goes
+[2023-05-10T05:43:55Z] DEBUG    - Search for key Fn::FindInMap as far down as the template goes
+[2023-05-10T05:43:55Z] DEBUG    - Search for key Fn::Equals as far down as the template goes
+[2023-05-10T05:43:55Z] DEBUG    - Search for key Ref as far down as the template goes
+[2023-05-10T05:43:55Z] DEBUG    - Search for key Fn::GetAtt as far down as the template goes
+[2023-05-10T05:43:55Z] DEBUG    - Search for key Fn::Sub as far down as the template goes
+[2023-05-10T05:43:55Z] DEBUG    - Transform templates if needed
+[2023-05-10T05:43:55Z] INFO     - Run scan of template /home/waz/Documents/AWS/edu/CloudFormation/modules/fragments/sample.json
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E8004 at 2023-05-10 15:43:55.329580
+[2023-05-10T05:43:55Z] DEBUG    - Search for key Fn::And as far down as the template goes
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E8004 at 2023-05-10 15:43:55.329687.  Ran in 0:00:00.000108
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E8004 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E8001 at 2023-05-10 15:43:55.329785
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E8001 at 2023-05-10 15:43:55.329821.  Ran in 0:00:00.000037
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E8001 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E8003 at 2023-05-10 15:43:55.329878
+[2023-05-10T05:43:55Z] DEBUG    - Search for key Fn::Equals as far down as the template goes
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E8003 at 2023-05-10 15:43:55.329955.  Ran in 0:00:00.000078
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E8003 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule W8003 at 2023-05-10 15:43:55.330014
+[2023-05-10T05:43:55Z] DEBUG    - Search for key Fn::Equals as far down as the template goes
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule W8003 at 2023-05-10 15:43:55.330077.  Ran in 0:00:00.000064
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule W8003 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E8002 at 2023-05-10 15:43:55.330150
+[2023-05-10T05:43:55Z] DEBUG    - Search for key Fn::If as far down as the template goes
+[2023-05-10T05:43:55Z] DEBUG    - Get resources from template...
+[2023-05-10T05:43:55Z] DEBUG    - Search for key Condition as far down as the template goes
+[2023-05-10T05:43:55Z] DEBUG    - Get outputs from template...
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E8002 at 2023-05-10 15:43:55.330312.  Ran in 0:00:00.000163
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E8002 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E8005 at 2023-05-10 15:43:55.330367
+[2023-05-10T05:43:55Z] DEBUG    - Search for key Fn::Not as far down as the template goes
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E8005 at 2023-05-10 15:43:55.330428.  Ran in 0:00:00.000062
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E8005 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E8006 at 2023-05-10 15:43:55.330483
+[2023-05-10T05:43:55Z] DEBUG    - Search for key Fn::Or as far down as the template goes
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E8006 at 2023-05-10 15:43:55.330543.  Ran in 0:00:00.000061
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E8006 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule W8001 at 2023-05-10 15:43:55.330599
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule W8001 at 2023-05-10 15:43:55.330631.  Ran in 0:00:00.000033
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule W8001 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E1021 at 2023-05-10 15:43:55.330685
+[2023-05-10T05:43:55Z] DEBUG    - Search for key Fn::Base64 as far down as the template goes
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E1021 at 2023-05-10 15:43:55.330782.  Ran in 0:00:00.000098
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E1021 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E1024 at 2023-05-10 15:43:55.330839
+[2023-05-10T05:43:55Z] DEBUG    - Search for key Fn::Cidr as far down as the template goes
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E1024 at 2023-05-10 15:43:55.330901.  Ran in 0:00:00.000063
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E1024 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E1011 at 2023-05-10 15:43:55.330956
+[2023-05-10T05:43:55Z] DEBUG    - Check if the template has language extensions transform declaration
+[2023-05-10T05:43:55Z] DEBUG    - Search for key Fn::FindInMap as far down as the template goes
+[2023-05-10T05:43:55Z] DEBUG    - Get mapping from template...
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E1011 at 2023-05-10 15:43:55.331070.  Ran in 0:00:00.000115
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E1011 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule W1011 at 2023-05-10 15:43:55.331123
+[2023-05-10T05:43:55Z] DEBUG    - Search for key Fn::FindInMap as far down as the template goes
+[2023-05-10T05:43:55Z] DEBUG    - Get mapping from template...
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule W1011 at 2023-05-10 15:43:55.331210.  Ran in 0:00:00.000088
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule W1011 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E1010 at 2023-05-10 15:43:55.331263
+[2023-05-10T05:43:55Z] DEBUG    - Search for key Fn::GetAtt as far down as the template goes
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E1010 at 2023-05-10 15:43:55.331333.  Ran in 0:00:00.000072
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E1010 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E1015 at 2023-05-10 15:43:55.331389
+[2023-05-10T05:43:55Z] DEBUG    - Search for key Fn::GetAZs as far down as the template goes
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E1015 at 2023-05-10 15:43:55.331456.  Ran in 0:00:00.000069
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E1015 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E1028 at 2023-05-10 15:43:55.331516
+[2023-05-10T05:43:55Z] DEBUG    - Search for key Fn::If as far down as the template goes
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E1028 at 2023-05-10 15:43:55.331576.  Ran in 0:00:00.000061
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E1028 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E1016 at 2023-05-10 15:43:55.331630
+[2023-05-10T05:43:55Z] DEBUG    - Search for key Fn::ImportValue as far down as the template goes
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E1016 at 2023-05-10 15:43:55.331689.  Ran in 0:00:00.000060
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E1016 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E1022 at 2023-05-10 15:43:55.331784
+[2023-05-10T05:43:55Z] DEBUG    - Search for key Fn::Join as far down as the template goes
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E1022 at 2023-05-10 15:43:55.331849.  Ran in 0:00:00.000066
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E1022 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E1030 at 2023-05-10 15:43:55.331904
+[2023-05-10T05:43:55Z] DEBUG    - Check if the template has language extensions transform declaration
+[2023-05-10T05:43:55Z] DEBUG    - Search for key Fn::Length as far down as the template goes
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E1030 at 2023-05-10 15:43:55.331988.  Ran in 0:00:00.000085
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E1030 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E1023 at 2023-05-10 15:43:55.332042
+[2023-05-10T05:43:55Z] DEBUG    - Search for key Fn::Not as far down as the template goes
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E1023 at 2023-05-10 15:43:55.332102.  Ran in 0:00:00.000061
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E1023 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E1020 at 2023-05-10 15:43:55.332154
+[2023-05-10T05:43:55Z] DEBUG    - Search for key Ref as far down as the template goes
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E1020 at 2023-05-10 15:43:55.332213.  Ran in 0:00:00.000061
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E1020 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E1012 at 2023-05-10 15:43:55.332267
+[2023-05-10T05:43:55Z] DEBUG    - Search for key Ref as far down as the template goes
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E1012 at 2023-05-10 15:43:55.332342.  Ran in 0:00:00.000076
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E1012 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E1026 at 2023-05-10 15:43:55.332400
+[2023-05-10T05:43:55Z] DEBUG    - Search for key Ref as far down as the template goes
+[2023-05-10T05:43:55Z] DEBUG    - Get the names of all resources from template...
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E1026 at 2023-05-10 15:43:55.332488.  Ran in 0:00:00.000090
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E1026 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule W1001 at 2023-05-10 15:43:55.332543
+[2023-05-10T05:43:55Z] DEBUG    - Search for key Ref as far down as the template goes
+[2023-05-10T05:43:55Z] DEBUG    - Get conditions for path ['Resources', 'S3Bucket', 'Properties', 'BucketName', 'Ref', 'BucketName']
+[2023-05-10T05:43:55Z] DEBUG    - Get conditions for path ['S3Bucket', 'Properties', 'BucketName', 'Ref', 'BucketName']
+[2023-05-10T05:43:55Z] DEBUG    - Get conditions for path ['Properties', 'BucketName', 'Ref', 'BucketName']
+[2023-05-10T05:43:55Z] DEBUG    - Get conditions for path ['BucketName', 'Ref', 'BucketName']
+[2023-05-10T05:43:55Z] DEBUG    - Get conditions for path ['Ref', 'BucketName']
+[2023-05-10T05:43:55Z] DEBUG    - Get conditions for path ['BucketName']
+[2023-05-10T05:43:55Z] DEBUG    - Search for key Fn::GetAtt as far down as the template goes
+[2023-05-10T05:43:55Z] DEBUG    - Search for key Fn::Sub as far down as the template goes
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule W1001 at 2023-05-10 15:43:55.333155.  Ran in 0:00:00.000614
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule W1001 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E1017 at 2023-05-10 15:43:55.333214
+[2023-05-10T05:43:55Z] DEBUG    - Search for key Fn::Select as far down as the template goes
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E1017 at 2023-05-10 15:43:55.333324.  Ran in 0:00:00.000111
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E1017 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E1018 at 2023-05-10 15:43:55.333382
+[2023-05-10T05:43:55Z] DEBUG    - Search for key Fn::Split as far down as the template goes
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E1018 at 2023-05-10 15:43:55.333443.  Ran in 0:00:00.000062
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E1018 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E1019 at 2023-05-10 15:43:55.333500
+[2023-05-10T05:43:55Z] DEBUG    - Search for key Fn::Sub as far down as the template goes
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E1019 at 2023-05-10 15:43:55.333561.  Ran in 0:00:00.000062
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E1019 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E1029 at 2023-05-10 15:43:55.333615
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E1029 at 2023-05-10 15:43:55.333692.  Ran in 0:00:00.000078
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E1029 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule W1019 at 2023-05-10 15:43:55.333755
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule W1019 at 2023-05-10 15:43:55.333799.  Ran in 0:00:00.000045
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule W1019 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule W1020 at 2023-05-10 15:43:55.333856
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule W1020 at 2023-05-10 15:43:55.333886.  Ran in 0:00:00.000030
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule W1020 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E1031 at 2023-05-10 15:43:55.333938
+[2023-05-10T05:43:55Z] DEBUG    - Check if the template has language extensions transform declaration
+[2023-05-10T05:43:55Z] DEBUG    - Search for key Fn::ToJsonString as far down as the template goes
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E1031 at 2023-05-10 15:43:55.334021.  Ran in 0:00:00.000084
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E1031 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E7001 at 2023-05-10 15:43:55.334076
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E7001 at 2023-05-10 15:43:55.334106.  Ran in 0:00:00.000031
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E7001 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E7003 at 2023-05-10 15:43:55.334159
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E7003 at 2023-05-10 15:43:55.334188.  Ran in 0:00:00.000030
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E7003 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E7012 at 2023-05-10 15:43:55.334241
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E7012 at 2023-05-10 15:43:55.334304.  Ran in 0:00:00.000065
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E7012 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E7011 at 2023-05-10 15:43:55.334362
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E7011 at 2023-05-10 15:43:55.334399.  Ran in 0:00:00.000039
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E7011 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E7010 at 2023-05-10 15:43:55.334455
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E7010 at 2023-05-10 15:43:55.334486.  Ran in 0:00:00.000032
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E7010 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E7002 at 2023-05-10 15:43:55.334538
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E7002 at 2023-05-10 15:43:55.334567.  Ran in 0:00:00.000030
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E7002 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule W7001 at 2023-05-10 15:43:55.334617
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule W7001 at 2023-05-10 15:43:55.334646.  Ran in 0:00:00.000030
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule W7001 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E4002 at 2023-05-10 15:43:55.334697
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E4002 at 2023-05-10 15:43:55.334726.  Ran in 0:00:00.000030
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E4002 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E4001 at 2023-05-10 15:43:55.334778
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E4001 at 2023-05-10 15:43:55.334808.  Ran in 0:00:00.000031
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E4001 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule W4001 at 2023-05-10 15:43:55.334859
+[2023-05-10T05:43:55Z] DEBUG    - Get names of all parameters from template...
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule W4001 at 2023-05-10 15:43:55.334913.  Ran in 0:00:00.000055
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule W4001 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E6001 at 2023-05-10 15:43:55.334967
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E6001 at 2023-05-10 15:43:55.334996.  Ran in 0:00:00.000029
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E6001 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E6005 at 2023-05-10 15:43:55.335048
+[2023-05-10T05:43:55Z] DEBUG    - Get outputs from template...
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E6005 at 2023-05-10 15:43:55.335099.  Ran in 0:00:00.000052
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E6005 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule W6001 at 2023-05-10 15:43:55.335150
+[2023-05-10T05:43:55Z] DEBUG    - Search for key Fn::ImportValue as far down as the template goes
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule W6001 at 2023-05-10 15:43:55.335211.  Ran in 0:00:00.000062
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule W6001 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E6012 at 2023-05-10 15:43:55.335287
+[2023-05-10T05:43:55Z] DEBUG    - Get outputs from template...
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E6012 at 2023-05-10 15:43:55.335352.  Ran in 0:00:00.000066
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E6012 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E6011 at 2023-05-10 15:43:55.335404
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E6011 at 2023-05-10 15:43:55.335434.  Ran in 0:00:00.000031
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E6011 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E6010 at 2023-05-10 15:43:55.335485
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E6010 at 2023-05-10 15:43:55.335515.  Ran in 0:00:00.000031
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E6010 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E6004 at 2023-05-10 15:43:55.335573
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E6004 at 2023-05-10 15:43:55.335606.  Ran in 0:00:00.000034
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E6004 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E6002 at 2023-05-10 15:43:55.335658
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E6002 at 2023-05-10 15:43:55.335686.  Ran in 0:00:00.000029
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E6002 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E6003 at 2023-05-10 15:43:55.335736
+[2023-05-10T05:43:55Z] DEBUG    - Search for key Fn::GetAtt as far down as the template goes
+[2023-05-10T05:43:55Z] DEBUG    - Search for key Ref as far down as the template goes
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E6003 at 2023-05-10 15:43:55.335829.  Ran in 0:00:00.000094
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E6003 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E2001 at 2023-05-10 15:43:55.335885
+[2023-05-10T05:43:55Z] DEBUG    - Get parameters from template...
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E2001 at 2023-05-10 15:43:55.335946.  Ran in 0:00:00.000062
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E2001 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E2015 at 2023-05-10 15:43:55.336002
+[2023-05-10T05:43:55Z] DEBUG    - Get parameters from template...
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E2015 at 2023-05-10 15:43:55.336059.  Ran in 0:00:00.000058
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E2015 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E2014 at 2023-05-10 15:43:55.336113
+[2023-05-10T05:43:55Z] DEBUG    - Search for key Ref as far down as the template goes
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E2014 at 2023-05-10 15:43:55.336174.  Ran in 0:00:00.000062
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E2014 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E2011 at 2023-05-10 15:43:55.336229
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E2011 at 2023-05-10 15:43:55.336260.  Ran in 0:00:00.000032
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E2011 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E2010 at 2023-05-10 15:43:55.336348
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E2010 at 2023-05-10 15:43:55.336381.  Ran in 0:00:00.000034
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E2010 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E2012 at 2023-05-10 15:43:55.336433
+[2023-05-10T05:43:55Z] DEBUG    - Get parameters from template...
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E2012 at 2023-05-10 15:43:55.336489.  Ran in 0:00:00.000057
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E2012 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E2003 at 2023-05-10 15:43:55.336542
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E2003 at 2023-05-10 15:43:55.336576.  Ran in 0:00:00.000035
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E2003 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E2002 at 2023-05-10 15:43:55.336631
+[2023-05-10T05:43:55Z] DEBUG    - Get parameters from template...
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E2002 at 2023-05-10 15:43:55.336685.  Ran in 0:00:00.000055
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E2002 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule W2001 at 2023-05-10 15:43:55.336739
+[2023-05-10T05:43:55Z] DEBUG    - Get parameters from template...
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule W2001 at 2023-05-10 15:43:55.336825.  Ran in 0:00:00.000088
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule W2001 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule W3011 at 2023-05-10 15:43:55.336896
+[2023-05-10T05:43:55Z] DEBUG    - Get resources from template...
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule W3011 at 2023-05-10 15:43:55.336956.  Ran in 0:00:00.000061
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule W3011 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E3004 at 2023-05-10 15:43:55.337011
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E3004 at 2023-05-10 15:43:55.337093.  Ran in 0:00:00.000084
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E3004 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E3001 at 2023-05-10 15:43:55.337157
+[2023-05-10T05:43:55Z] DEBUG    - Validating resource S3Bucket base configuration
+[2023-05-10T05:43:55Z] DEBUG    - Check resource types by region...
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E3001 at 2023-05-10 15:43:55.337311.  Ran in 0:00:00.000156
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E3001 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E3035 at 2023-05-10 15:43:55.337371
+[2023-05-10T05:43:55Z] DEBUG    - Get resources from template...
+[2023-05-10T05:43:55Z] DEBUG    - Validating DeletionPolicy for S3Bucket base configuration
+[2023-05-10T05:43:55Z] DEBUG    - Check if the template has language extensions transform declaration
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E3035 at 2023-05-10 15:43:55.337484.  Ran in 0:00:00.000114
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E3035 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E3005 at 2023-05-10 15:43:55.337539
+[2023-05-10T05:43:55Z] DEBUG    - Get resources from template...
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E3005 at 2023-05-10 15:43:55.337594.  Ran in 0:00:00.000057
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E3005 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule W3005 at 2023-05-10 15:43:55.337649
+[2023-05-10T05:43:55Z] DEBUG    - Get resources from template...
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule W3005 at 2023-05-10 15:43:55.337704.  Ran in 0:00:00.000056
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule W3005 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E3011 at 2023-05-10 15:43:55.337757
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E3011 at 2023-05-10 15:43:55.337788.  Ran in 0:00:00.000032
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E3011 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E3010 at 2023-05-10 15:43:55.337893
+[2023-05-10T05:43:55Z] DEBUG    - Get resources from template...
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E3010 at 2023-05-10 15:43:55.337951.  Ran in 0:00:00.000059
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E3010 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E5001 at 2023-05-10 15:43:55.338006
+[2023-05-10T05:43:55Z] DEBUG    - Get resources from template...
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E5001 at 2023-05-10 15:43:55.338068.  Ran in 0:00:00.000063
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E5001 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E3006 at 2023-05-10 15:43:55.338124
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E3006 at 2023-05-10 15:43:55.338159.  Ran in 0:00:00.000036
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E3006 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule W4002 at 2023-05-10 15:43:55.338214
+[2023-05-10T05:43:55Z] DEBUG    - Get parameters from template...
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule W4002 at 2023-05-10 15:43:55.338270.  Ran in 0:00:00.000057
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule W4002 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E3000 at 2023-05-10 15:43:55.338332
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E3000 at 2023-05-10 15:43:55.338361.  Ran in 0:00:00.000030
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E3000 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E3038 at 2023-05-10 15:43:55.338411
+[2023-05-10T05:43:55Z] DEBUG    - Get resources from template...
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E3038 at 2023-05-10 15:43:55.338469.  Ran in 0:00:00.000059
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E3038 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E3007 at 2023-05-10 15:43:55.338522
+[2023-05-10T05:43:55Z] DEBUG    - Get resources from template...
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E3007 at 2023-05-10 15:43:55.338577.  Ran in 0:00:00.000056
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E3007 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E3036 at 2023-05-10 15:43:55.338631
+[2023-05-10T05:43:55Z] DEBUG    - Get resources from template...
+[2023-05-10T05:43:55Z] DEBUG    - Validating UpdateReplacePolicy for S3Bucket base configuration
+[2023-05-10T05:43:55Z] DEBUG    - Check if the template has language extensions transform declaration
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E3036 at 2023-05-10 15:43:55.338737.  Ran in 0:00:00.000108
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E3036 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E3504 at 2023-05-10 15:43:55.338791
+[2023-05-10T05:43:55Z] DEBUG    - Get Properties from a resource: ['AWS::Backup::BackupPlan', 'BackupPlan', 'BackupPlanRule', 'Lifecycle']
+[2023-05-10T05:43:55Z] DEBUG    - Get resources from template...
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E3504 at 2023-05-10 15:43:55.338911.  Ran in 0:00:00.000122
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E3504 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E3013 at 2023-05-10 15:43:55.338968
+[2023-05-10T05:43:55Z] DEBUG    - Get Properties from a resource: ['AWS::CloudFront::Distribution', 'DistributionConfig']
+[2023-05-10T05:43:55Z] DEBUG    - Get resources from template...
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E3013 at 2023-05-10 15:43:55.339209.  Ran in 0:00:00.000242
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E3013 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E2541 at 2023-05-10 15:43:55.339267
+[2023-05-10T05:43:55Z] DEBUG    - Get Properties from a resource: ['AWS::CodePipeline::Pipeline']
+[2023-05-10T05:43:55Z] DEBUG    - Get resources from template...
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E2541 at 2023-05-10 15:43:55.339348.  Ran in 0:00:00.000082
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E2541 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E2540 at 2023-05-10 15:43:55.339403
+[2023-05-10T05:43:55Z] DEBUG    - Get Properties from a resource: ['AWS::CodePipeline::Pipeline']
+[2023-05-10T05:43:55Z] DEBUG    - Get resources from template...
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E2540 at 2023-05-10 15:43:55.339481.  Ran in 0:00:00.000079
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E2540 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E3042 at 2023-05-10 15:43:55.339536
+[2023-05-10T05:43:55Z] DEBUG    - Get Properties from a resource: ['AWS::ECS::TaskDefinition', 'ContainerDefinitions']
+[2023-05-10T05:43:55Z] DEBUG    - Get resources from template...
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E3042 at 2023-05-10 15:43:55.339615.  Ran in 0:00:00.000081
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E3042 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E2504 at 2023-05-10 15:43:55.339669
+[2023-05-10T05:43:55Z] DEBUG    - Get Properties from a resource: ['AWS::EC2::Instance', 'BlockDeviceMappings']
+[2023-05-10T05:43:55Z] DEBUG    - Get resources from template...
+[2023-05-10T05:43:55Z] DEBUG    - Get Properties from a resource: ['AWS::AutoScaling::LaunchConfiguration', 'BlockDeviceMappings']
+[2023-05-10T05:43:55Z] DEBUG    - Get resources from template...
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E2504 at 2023-05-10 15:43:55.339808.  Ran in 0:00:00.000140
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E2504 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E3022 at 2023-05-10 15:43:55.339913
+[2023-05-10T05:43:55Z] DEBUG    - Get resources from template...
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E3022 at 2023-05-10 15:43:55.339970.  Ran in 0:00:00.000059
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E3022 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E2506 at 2023-05-10 15:43:55.340025
+[2023-05-10T05:43:55Z] DEBUG    - Get resources from template...
+[2023-05-10T05:43:55Z] DEBUG    - Get resources from template...
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E2506 at 2023-05-10 15:43:55.340104.  Ran in 0:00:00.000081
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E2506 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E2503 at 2023-05-10 15:43:55.340159
+[2023-05-10T05:43:55Z] DEBUG    - Get Properties from a resource: ['AWS::ElasticLoadBalancingV2::Listener']
+[2023-05-10T05:43:55Z] DEBUG    - Get resources from template...
+[2023-05-10T05:43:55Z] DEBUG    - Get Properties from a resource: ['AWS::ElasticLoadBalancing::LoadBalancer', 'Listeners']
+[2023-05-10T05:43:55Z] DEBUG    - Get resources from template...
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E2503 at 2023-05-10 15:43:55.340290.  Ran in 0:00:00.000133
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E2503 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E2529 at 2023-05-10 15:43:55.340389
+[2023-05-10T05:43:55Z] DEBUG    - Get resources from template...
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E2529 at 2023-05-10 15:43:55.340451.  Ran in 0:00:00.000063
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E2529 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule W2506 at 2023-05-10 15:43:55.340506
+[2023-05-10T05:43:55Z] DEBUG    - Search for key ImageId as far down as the template goes
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule W2506 at 2023-05-10 15:43:55.340577.  Ran in 0:00:00.000072
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule W2506 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule W2501 at 2023-05-10 15:43:55.340637
+[2023-05-10T05:43:55Z] DEBUG    - Get names of all parameters from template...
+[2023-05-10T05:43:55Z] DEBUG    - Search for key AccountPassword as far down as the template goes
+[2023-05-10T05:43:55Z] DEBUG    - Search for key AdminPassword as far down as the template goes
+[2023-05-10T05:43:55Z] DEBUG    - Search for key ADDomainJoinPassword as far down as the template goes
+[2023-05-10T05:43:55Z] DEBUG    - Search for key CrossRealmTrustPrincipalPassword as far down as the template goes
+[2023-05-10T05:43:55Z] DEBUG    - Search for key KdcAdminPassword as far down as the template goes
+[2023-05-10T05:43:55Z] DEBUG    - Search for key Password as far down as the template goes
+[2023-05-10T05:43:55Z] DEBUG    - Search for key DbPassword as far down as the template goes
+[2023-05-10T05:43:55Z] DEBUG    - Search for key MasterUserPassword as far down as the template goes
+[2023-05-10T05:43:55Z] DEBUG    - Search for key PasswordParam as far down as the template goes
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule W2501 at 2023-05-10 15:43:55.340978.  Ran in 0:00:00.000342
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule W2501 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E3002 at 2023-05-10 15:43:55.341041
+[2023-05-10T05:43:55Z] DEBUG    - Get names of all parameters from template...
+[2023-05-10T05:43:55Z] DEBUG    - Get resources from template...
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E3002 at 2023-05-10 15:43:55.341166.  Ran in 0:00:00.000127
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E3002 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E3003 at 2023-05-10 15:43:55.341228
+[2023-05-10T05:43:55Z] DEBUG    - Get resources from template...
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E3003 at 2023-05-10 15:43:55.341284.  Ran in 0:00:00.000057
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E3003 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E3025 at 2023-05-10 15:43:55.341392
+[2023-05-10T05:43:55Z] DEBUG    - Get resources from template...
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E3025 at 2023-05-10 15:43:55.341497.  Ran in 0:00:00.000106
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E3025 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E3020 at 2023-05-10 15:43:55.341554
+[2023-05-10T05:43:55Z] DEBUG    - Get resources from template...
+[2023-05-10T05:43:55Z] DEBUG    - Get Properties from a resource: ['AWS::Route53::RecordSetGroup', 'RecordSets']
+[2023-05-10T05:43:55Z] DEBUG    - Get resources from template...
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E3020 at 2023-05-10 15:43:55.341662.  Ran in 0:00:00.000109
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E3020 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E3016 at 2023-05-10 15:43:55.341717
+[2023-05-10T05:43:55Z] DEBUG    - Get resources from template...
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E3016 at 2023-05-10 15:43:55.341771.  Ran in 0:00:00.000055
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E3016 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E1001 at 2023-05-10 15:43:55.341824
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E1001 at 2023-05-10 15:43:55.341856.  Ran in 0:00:00.000033
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E1001 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E1004 at 2023-05-10 15:43:55.341908
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E1004 at 2023-05-10 15:43:55.341937.  Ran in 0:00:00.000030
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E1004 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E1003 at 2023-05-10 15:43:55.341990
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E1003 at 2023-05-10 15:43:55.342018.  Ran in 0:00:00.000029
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E1003 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E1002 at 2023-05-10 15:43:55.342069
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E1002 at 2023-05-10 15:43:55.342130.  Ran in 0:00:00.000062
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E1002 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Get resources from template...
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E1027 at 2023-05-10 15:43:55.342245
+[2023-05-10T05:43:55Z] DEBUG    - Check value BucketName for {'BucketName': {'Ref': 'BucketName'}, 'BucketEncryption': {'ServerSideEncryptionConfiguration': [{'ServerSideEncryptionByDefault': {'SSEAlgorithm': 'AES256'}}]}, 'VersioningConfiguration': {'Status': 'Enabled'}}
+[2023-05-10T05:43:55Z] DEBUG    - Get the value for key BucketName in {'BucketName': {'Ref': 'BucketName'}, 'BucketEncryption': {'ServerSideEncryptionConfiguration': [{'ServerSideEncryptionByDefault': {'SSEAlgorithm': 'AES256'}}]}, 'VersioningConfiguration': {'Status': 'Enabled'}}
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E1027 at 2023-05-10 15:43:55.342429.  Ran in 0:00:00.000186
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E1027 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule W2031 at 2023-05-10 15:43:55.342544
+[2023-05-10T05:43:55Z] DEBUG    - Check value BucketName for {'BucketName': {'Ref': 'BucketName'}, 'BucketEncryption': {'ServerSideEncryptionConfiguration': [{'ServerSideEncryptionByDefault': {'SSEAlgorithm': 'AES256'}}]}, 'VersioningConfiguration': {'Status': 'Enabled'}}
+[2023-05-10T05:43:55Z] DEBUG    - Get the value for key BucketName in {'BucketName': {'Ref': 'BucketName'}, 'BucketEncryption': {'ServerSideEncryptionConfiguration': [{'ServerSideEncryptionByDefault': {'SSEAlgorithm': 'AES256'}}]}, 'VersioningConfiguration': {'Status': 'Enabled'}}
+[2023-05-10T05:43:55Z] DEBUG    - Get parameters from template...
+[2023-05-10T05:43:55Z] DEBUG    - Get resources from template...
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule W2031 at 2023-05-10 15:43:55.342741.  Ran in 0:00:00.000198
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule W2031 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule W2030 at 2023-05-10 15:43:55.342809
+[2023-05-10T05:43:55Z] DEBUG    - Check value BucketName for {'BucketName': {'Ref': 'BucketName'}, 'BucketEncryption': {'ServerSideEncryptionConfiguration': [{'ServerSideEncryptionByDefault': {'SSEAlgorithm': 'AES256'}}]}, 'VersioningConfiguration': {'Status': 'Enabled'}}
+[2023-05-10T05:43:55Z] DEBUG    - Get the value for key BucketName in {'BucketName': {'Ref': 'BucketName'}, 'BucketEncryption': {'ServerSideEncryptionConfiguration': [{'ServerSideEncryptionByDefault': {'SSEAlgorithm': 'AES256'}}]}, 'VersioningConfiguration': {'Status': 'Enabled'}}
+[2023-05-10T05:43:55Z] DEBUG    - Get parameters from template...
+[2023-05-10T05:43:55Z] DEBUG    - Get resources from template...
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule W2030 at 2023-05-10 15:43:55.342988.  Ran in 0:00:00.000180
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule W2030 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E3031 at 2023-05-10 15:43:55.343084
+[2023-05-10T05:43:55Z] DEBUG    - Check value BucketName for {'BucketName': {'Ref': 'BucketName'}, 'BucketEncryption': {'ServerSideEncryptionConfiguration': [{'ServerSideEncryptionByDefault': {'SSEAlgorithm': 'AES256'}}]}, 'VersioningConfiguration': {'Status': 'Enabled'}}
+[2023-05-10T05:43:55Z] DEBUG    - Get the value for key BucketName in {'BucketName': {'Ref': 'BucketName'}, 'BucketEncryption': {'ServerSideEncryptionConfiguration': [{'ServerSideEncryptionByDefault': {'SSEAlgorithm': 'AES256'}}]}, 'VersioningConfiguration': {'Status': 'Enabled'}}
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E3031 at 2023-05-10 15:43:55.343205.  Ran in 0:00:00.000122
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E3031 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E3030 at 2023-05-10 15:43:55.343273
+[2023-05-10T05:43:55Z] DEBUG    - Check value BucketName for {'BucketName': {'Ref': 'BucketName'}, 'BucketEncryption': {'ServerSideEncryptionConfiguration': [{'ServerSideEncryptionByDefault': {'SSEAlgorithm': 'AES256'}}]}, 'VersioningConfiguration': {'Status': 'Enabled'}}
+[2023-05-10T05:43:55Z] DEBUG    - Get the value for key BucketName in {'BucketName': {'Ref': 'BucketName'}, 'BucketEncryption': {'ServerSideEncryptionConfiguration': [{'ServerSideEncryptionByDefault': {'SSEAlgorithm': 'AES256'}}]}, 'VersioningConfiguration': {'Status': 'Enabled'}}
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E3030 at 2023-05-10 15:43:55.343426.  Ran in 0:00:00.000154
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E3030 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E3502 at 2023-05-10 15:43:55.343506
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E3502 at 2023-05-10 15:43:55.343548.  Ran in 0:00:00.000043
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E3502 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E3037 at 2023-05-10 15:43:55.343611
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E3037 at 2023-05-10 15:43:55.343692.  Ran in 0:00:00.000083
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E3037 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E3032 at 2023-05-10 15:43:55.343776
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E3032 at 2023-05-10 15:43:55.343816.  Ran in 0:00:00.000041
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E3032 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E3034 at 2023-05-10 15:43:55.343905
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E3034 at 2023-05-10 15:43:55.343953.  Ran in 0:00:00.000049
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E3034 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E3003 at 2023-05-10 15:43:55.344021
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E3003 at 2023-05-10 15:43:55.344062.  Ran in 0:00:00.000042
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E3003 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E3033 at 2023-05-10 15:43:55.344127
+[2023-05-10T05:43:55Z] DEBUG    - Check value BucketName for {'BucketName': {'Ref': 'BucketName'}, 'BucketEncryption': {'ServerSideEncryptionConfiguration': [{'ServerSideEncryptionByDefault': {'SSEAlgorithm': 'AES256'}}]}, 'VersioningConfiguration': {'Status': 'Enabled'}}
+[2023-05-10T05:43:55Z] DEBUG    - Get the value for key BucketName in {'BucketName': {'Ref': 'BucketName'}, 'BucketEncryption': {'ServerSideEncryptionConfiguration': [{'ServerSideEncryptionByDefault': {'SSEAlgorithm': 'AES256'}}]}, 'VersioningConfiguration': {'Status': 'Enabled'}}
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E3033 at 2023-05-10 15:43:55.344241.  Ran in 0:00:00.000116
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E3033 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E3012 at 2023-05-10 15:43:55.344309
+[2023-05-10T05:43:55Z] DEBUG    - Check value BucketName for {'BucketName': {'Ref': 'BucketName'}, 'BucketEncryption': {'ServerSideEncryptionConfiguration': [{'ServerSideEncryptionByDefault': {'SSEAlgorithm': 'AES256'}}]}, 'VersioningConfiguration': {'Status': 'Enabled'}}
+[2023-05-10T05:43:55Z] DEBUG    - Get the value for key BucketName in {'BucketName': {'Ref': 'BucketName'}, 'BucketEncryption': {'ServerSideEncryptionConfiguration': [{'ServerSideEncryptionByDefault': {'SSEAlgorithm': 'AES256'}}]}, 'VersioningConfiguration': {'Status': 'Enabled'}}
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E3012 at 2023-05-10 15:43:55.344447.  Ran in 0:00:00.000140
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E3012 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E3008 at 2023-05-10 15:43:55.344518
+[2023-05-10T05:43:55Z] DEBUG    - Check value BucketName for {'BucketName': {'Ref': 'BucketName'}, 'BucketEncryption': {'ServerSideEncryptionConfiguration': [{'ServerSideEncryptionByDefault': {'SSEAlgorithm': 'AES256'}}]}, 'VersioningConfiguration': {'Status': 'Enabled'}}
+[2023-05-10T05:43:55Z] DEBUG    - Get the value for key BucketName in {'BucketName': {'Ref': 'BucketName'}, 'BucketEncryption': {'ServerSideEncryptionConfiguration': [{'ServerSideEncryptionByDefault': {'SSEAlgorithm': 'AES256'}}]}, 'VersioningConfiguration': {'Status': 'Enabled'}}
+[2023-05-10T05:43:55Z] DEBUG    - Get parameters from template...
+[2023-05-10T05:43:55Z] DEBUG    - Get resources from template...
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E3008 at 2023-05-10 15:43:55.344695.  Ran in 0:00:00.000179
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E3008 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E1027 at 2023-05-10 15:43:55.344824
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E1027 at 2023-05-10 15:43:55.344864.  Ran in 0:00:00.000041
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E1027 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule W2031 at 2023-05-10 15:43:55.344979
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule W2031 at 2023-05-10 15:43:55.345024.  Ran in 0:00:00.000046
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule W2031 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule W2030 at 2023-05-10 15:43:55.345103
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule W2030 at 2023-05-10 15:43:55.345141.  Ran in 0:00:00.000039
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule W2030 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E3031 at 2023-05-10 15:43:55.345251
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E3031 at 2023-05-10 15:43:55.345290.  Ran in 0:00:00.000040
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E3031 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E3030 at 2023-05-10 15:43:55.345366
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E3030 at 2023-05-10 15:43:55.345440.  Ran in 0:00:00.000076
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E3030 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E3502 at 2023-05-10 15:43:55.345540
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E3502 at 2023-05-10 15:43:55.345580.  Ran in 0:00:00.000041
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E3502 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E3037 at 2023-05-10 15:43:55.345657
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E3037 at 2023-05-10 15:43:55.345787.  Ran in 0:00:00.000132
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E3037 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E3032 at 2023-05-10 15:43:55.345885
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E3032 at 2023-05-10 15:43:55.345925.  Ran in 0:00:00.000041
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E3032 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E3034 at 2023-05-10 15:43:55.346002
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E3034 at 2023-05-10 15:43:55.346039.  Ran in 0:00:00.000038
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E3034 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E3003 at 2023-05-10 15:43:55.346120
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E3003 at 2023-05-10 15:43:55.346157.  Ran in 0:00:00.000038
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E3003 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E3033 at 2023-05-10 15:43:55.346235
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E3033 at 2023-05-10 15:43:55.346272.  Ran in 0:00:00.000038
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E3033 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E3012 at 2023-05-10 15:43:55.346349
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E3012 at 2023-05-10 15:43:55.346381.  Ran in 0:00:00.000033
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E3012 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E3008 at 2023-05-10 15:43:55.346495
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E3008 at 2023-05-10 15:43:55.346537.  Ran in 0:00:00.000043
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E3008 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E1027 at 2023-05-10 15:43:55.346635
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E1027 at 2023-05-10 15:43:55.346674.  Ran in 0:00:00.000040
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E1027 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule W2031 at 2023-05-10 15:43:55.346772
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule W2031 at 2023-05-10 15:43:55.346813.  Ran in 0:00:00.000042
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule W2031 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule W2030 at 2023-05-10 15:43:55.346901
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule W2030 at 2023-05-10 15:43:55.346970.  Ran in 0:00:00.000070
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule W2030 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E3031 at 2023-05-10 15:43:55.347081
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E3031 at 2023-05-10 15:43:55.347120.  Ran in 0:00:00.000040
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E3031 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E3030 at 2023-05-10 15:43:55.347197
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E3030 at 2023-05-10 15:43:55.347235.  Ran in 0:00:00.000039
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E3030 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E3502 at 2023-05-10 15:43:55.347317
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E3502 at 2023-05-10 15:43:55.347354.  Ran in 0:00:00.000038
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E3502 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E3037 at 2023-05-10 15:43:55.347429
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E3037 at 2023-05-10 15:43:55.347467.  Ran in 0:00:00.000039
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E3037 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E3032 at 2023-05-10 15:43:55.347544
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E3032 at 2023-05-10 15:43:55.347581.  Ran in 0:00:00.000038
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E3032 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E3034 at 2023-05-10 15:43:55.347657
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E3034 at 2023-05-10 15:43:55.347693.  Ran in 0:00:00.000037
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E3034 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E3003 at 2023-05-10 15:43:55.347772
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E3003 at 2023-05-10 15:43:55.347809.  Ran in 0:00:00.000038
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E3003 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E3033 at 2023-05-10 15:43:55.347885
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E3033 at 2023-05-10 15:43:55.347939.  Ran in 0:00:00.000056
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E3033 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E3012 at 2023-05-10 15:43:55.348039
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E3012 at 2023-05-10 15:43:55.348074.  Ran in 0:00:00.000036
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E3012 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E3008 at 2023-05-10 15:43:55.348148
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E3008 at 2023-05-10 15:43:55.348185.  Ran in 0:00:00.000038
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E3008 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E1027 at 2023-05-10 15:43:55.348275
+[2023-05-10T05:43:55Z] DEBUG    - Check value SSEAlgorithm for {'SSEAlgorithm': 'AES256'}
+[2023-05-10T05:43:55Z] DEBUG    - Get the value for key SSEAlgorithm in {'SSEAlgorithm': 'AES256'}
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E1027 at 2023-05-10 15:43:55.348376.  Ran in 0:00:00.000102
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E1027 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule W2031 at 2023-05-10 15:43:55.348477
+[2023-05-10T05:43:55Z] DEBUG    - Check value SSEAlgorithm for {'SSEAlgorithm': 'AES256'}
+[2023-05-10T05:43:55Z] DEBUG    - Get the value for key SSEAlgorithm in {'SSEAlgorithm': 'AES256'}
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule W2031 at 2023-05-10 15:43:55.348579.  Ran in 0:00:00.000104
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule W2031 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule W2030 at 2023-05-10 15:43:55.348660
+[2023-05-10T05:43:55Z] DEBUG    - Check value SSEAlgorithm for {'SSEAlgorithm': 'AES256'}
+[2023-05-10T05:43:55Z] DEBUG    - Get the value for key SSEAlgorithm in {'SSEAlgorithm': 'AES256'}
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule W2030 at 2023-05-10 15:43:55.348753.  Ran in 0:00:00.000094
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule W2030 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E3031 at 2023-05-10 15:43:55.348854
+[2023-05-10T05:43:55Z] DEBUG    - Check value SSEAlgorithm for {'SSEAlgorithm': 'AES256'}
+[2023-05-10T05:43:55Z] DEBUG    - Get the value for key SSEAlgorithm in {'SSEAlgorithm': 'AES256'}
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E3031 at 2023-05-10 15:43:55.348978.  Ran in 0:00:00.000126
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E3031 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E3030 at 2023-05-10 15:43:55.349068
+[2023-05-10T05:43:55Z] DEBUG    - Check value SSEAlgorithm for {'SSEAlgorithm': 'AES256'}
+[2023-05-10T05:43:55Z] DEBUG    - Get the value for key SSEAlgorithm in {'SSEAlgorithm': 'AES256'}
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E3030 at 2023-05-10 15:43:55.349165.  Ran in 0:00:00.000098
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E3030 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E3502 at 2023-05-10 15:43:55.349246
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E3502 at 2023-05-10 15:43:55.349284.  Ran in 0:00:00.000039
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E3502 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E3037 at 2023-05-10 15:43:55.349358
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E3037 at 2023-05-10 15:43:55.349394.  Ran in 0:00:00.000037
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E3037 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E3032 at 2023-05-10 15:43:55.349468
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E3032 at 2023-05-10 15:43:55.349503.  Ran in 0:00:00.000036
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E3032 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E3034 at 2023-05-10 15:43:55.349577
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E3034 at 2023-05-10 15:43:55.349613.  Ran in 0:00:00.000037
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E3034 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E3003 at 2023-05-10 15:43:55.349690
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E3003 at 2023-05-10 15:43:55.349726.  Ran in 0:00:00.000037
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E3003 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E3033 at 2023-05-10 15:43:55.349802
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E3033 at 2023-05-10 15:43:55.349838.  Ran in 0:00:00.000037
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E3033 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E3012 at 2023-05-10 15:43:55.349912
+[2023-05-10T05:43:55Z] DEBUG    - Check value SSEAlgorithm for {'SSEAlgorithm': 'AES256'}
+[2023-05-10T05:43:55Z] DEBUG    - Get the value for key SSEAlgorithm in {'SSEAlgorithm': 'AES256'}
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E3012 at 2023-05-10 15:43:55.350038.  Ran in 0:00:00.000127
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E3012 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E3008 at 2023-05-10 15:43:55.350121
+[2023-05-10T05:43:55Z] DEBUG    - Check value SSEAlgorithm for {'SSEAlgorithm': 'AES256'}
+[2023-05-10T05:43:55Z] DEBUG    - Get the value for key SSEAlgorithm in {'SSEAlgorithm': 'AES256'}
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E3008 at 2023-05-10 15:43:55.350227.  Ran in 0:00:00.000107
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E3008 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E1027 at 2023-05-10 15:43:55.350322
+[2023-05-10T05:43:55Z] DEBUG    - Check value Status for {'Status': 'Enabled'}
+[2023-05-10T05:43:55Z] DEBUG    - Get the value for key Status in {'Status': 'Enabled'}
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E1027 at 2023-05-10 15:43:55.350419.  Ran in 0:00:00.000099
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E1027 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule W2031 at 2023-05-10 15:43:55.350575
+[2023-05-10T05:43:55Z] DEBUG    - Check value Status for {'Status': 'Enabled'}
+[2023-05-10T05:43:55Z] DEBUG    - Get the value for key Status in {'Status': 'Enabled'}
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule W2031 at 2023-05-10 15:43:55.350675.  Ran in 0:00:00.000102
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule W2031 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule W2030 at 2023-05-10 15:43:55.350752
+[2023-05-10T05:43:55Z] DEBUG    - Check value Status for {'Status': 'Enabled'}
+[2023-05-10T05:43:55Z] DEBUG    - Get the value for key Status in {'Status': 'Enabled'}
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule W2030 at 2023-05-10 15:43:55.350843.  Ran in 0:00:00.000093
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule W2030 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E3031 at 2023-05-10 15:43:55.350943
+[2023-05-10T05:43:55Z] DEBUG    - Check value Status for {'Status': 'Enabled'}
+[2023-05-10T05:43:55Z] DEBUG    - Get the value for key Status in {'Status': 'Enabled'}
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E3031 at 2023-05-10 15:43:55.351069.  Ran in 0:00:00.000128
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E3031 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E3030 at 2023-05-10 15:43:55.351152
+[2023-05-10T05:43:55Z] DEBUG    - Check value Status for {'Status': 'Enabled'}
+[2023-05-10T05:43:55Z] DEBUG    - Get the value for key Status in {'Status': 'Enabled'}
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E3030 at 2023-05-10 15:43:55.351247.  Ran in 0:00:00.000096
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E3030 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E3502 at 2023-05-10 15:43:55.351374
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E3502 at 2023-05-10 15:43:55.351414.  Ran in 0:00:00.000041
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E3502 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E3037 at 2023-05-10 15:43:55.351509
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E3037 at 2023-05-10 15:43:55.351576.  Ran in 0:00:00.000068
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E3037 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E3032 at 2023-05-10 15:43:55.351659
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E3032 at 2023-05-10 15:43:55.351697.  Ran in 0:00:00.000039
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E3032 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E3034 at 2023-05-10 15:43:55.351773
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E3034 at 2023-05-10 15:43:55.351810.  Ran in 0:00:00.000038
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E3034 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E3003 at 2023-05-10 15:43:55.351925
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E3003 at 2023-05-10 15:43:55.351963.  Ran in 0:00:00.000039
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E3003 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E3033 at 2023-05-10 15:43:55.352047
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E3033 at 2023-05-10 15:43:55.352086.  Ran in 0:00:00.000040
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E3033 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E3012 at 2023-05-10 15:43:55.352197
+[2023-05-10T05:43:55Z] DEBUG    - Check value Status for {'Status': 'Enabled'}
+[2023-05-10T05:43:55Z] DEBUG    - Get the value for key Status in {'Status': 'Enabled'}
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E3012 at 2023-05-10 15:43:55.352289.  Ran in 0:00:00.000093
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E3012 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Starting match function for rule E3008 at 2023-05-10 15:43:55.352366
+[2023-05-10T05:43:55Z] DEBUG    - Check value Status for {'Status': 'Enabled'}
+[2023-05-10T05:43:55Z] DEBUG    - Get the value for key Status in {'Status': 'Enabled'}
+[2023-05-10T05:43:55Z] DEBUG    - Complete match function for rule E3008 at 2023-05-10 15:43:55.352510.  Ran in 0:00:00.000146
+[2023-05-10T05:43:55Z] DEBUG    - Results from rule E3008 are []: 
+[2023-05-10T05:43:55Z] DEBUG    - Get resources from template...
+[2023-05-10T05:43:55Z] WARNING  - Module fragment is valid.
+[2023-05-10T05:43:55Z] DEBUG    - Overwriting '/home/waz/Documents/AWS/edu/CloudFormation/modules/schema.json'
+[2023-05-10T05:43:55Z] DEBUG    - overrides.json not found. Not writing to package.
+[2023-05-10T05:43:55Z] DEBUG    - Packaging complete, uploading...
+[2023-05-10T05:43:57Z] DEBUG    - Caught exit recommendation
+Traceback (most recent call last):
+  File "/home/waz/.local/lib/python3.11/site-packages/rpdk/core/cli.py", line 100, in main
+    args.command(args)
+  File "/home/waz/.local/lib/python3.11/site-packages/rpdk/core/submit.py", line 15, in submit
+    project.submit(
+  File "/home/waz/.local/lib/python3.11/site-packages/rpdk/core/project.py", line 659, in submit
+    self._upload(
+  File "/home/waz/.local/lib/python3.11/site-packages/rpdk/core/project.py", line 1077, in _upload
+    session = create_sdk_session(region_name, profile_name)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/waz/.local/lib/python3.11/site-packages/rpdk/core/boto_helpers.py", line 30, in create_sdk_session
+    _known_error("No credentials specified")
+  File "/home/waz/.local/lib/python3.11/site-packages/rpdk/core/boto_helpers.py", line 19, in _known_error
+    raise CLIMisconfiguredError(
+rpdk.core.exceptions.CLIMisconfiguredError: No credentials specified. Please ensure your AWS CLI is configured correctly: https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html
+[2023-05-10T05:43:57Z] CRITICAL - No credentials specified. Please ensure your AWS CLI is configured correctly: https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html

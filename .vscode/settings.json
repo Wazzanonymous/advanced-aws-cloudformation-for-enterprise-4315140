@@ -1,0 +1,5 @@
+{
+    "yaml.schemas": {
+        "aws:/home/waz/.config/Code/User/globalStorage/amazonwebservices.aws-toolkit-vscode/sam.schema.json": "file:///home/waz/Documents/AWS/edu/CloudFormation/basic_ec2/basicEC2.yaml"
+    }
+}

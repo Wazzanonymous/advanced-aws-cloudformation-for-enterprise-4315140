@@ -1,0 +1,31 @@
+[2023-05-10T04:56:14Z] DEBUG    - Logging set up successfully
+[2023-05-10T04:56:14Z] DEBUG    - Running None: Namespace(version=False, subparser_name=None, command=<function main.<locals>.no_command at 0x7f1b241142c0>, verbose=0)
+[2023-05-10T04:56:14Z] DEBUG    - Finished None
+[2023-05-10T05:18:17Z] DEBUG    - Logging set up successfully
+[2023-05-10T05:18:17Z] DEBUG    - Running None: Namespace(version=False, subparser_name=None, command=<function init at 0x7ff1959f85e0>, verbose=0, force=False, type_name=None, artifact_type=None, endpoint_url=None, region=None, target_schemas=[], profile=None)
+[2023-05-10T05:18:17Z] DEBUG    - Root directory: /home/waz/Documents/AWS/edu/CloudFormation/modules/wazWebstack-1
+[2023-05-10T05:18:17Z] WARNING  - Initializing new project
+[2023-05-10T05:18:17Z] DEBUG    - Loading project file '/home/waz/Documents/AWS/edu/CloudFormation/modules/wazWebstack-1/.rpdk-config'
+[2023-05-10T05:20:53Z] DEBUG    - Resource type identifier: WAZ::Multi::WebStack::MODULE
+[2023-05-10T05:20:53Z] DEBUG    - Overwriting '/home/waz/Documents/AWS/edu/CloudFormation/modules/wazWebstack-1/.rpdk-config'
+[2023-05-10T05:20:53Z] DEBUG    - Unhandled exception
+Traceback (most recent call last):
+  File "/home/waz/.local/lib/python3.11/site-packages/rpdk/core/cli.py", line 100, in main
+    args.command(args)
+  File "/home/waz/.local/lib/python3.11/site-packages/rpdk/core/init.py", line 154, in wrapper
+    function(args)
+  File "/home/waz/.local/lib/python3.11/site-packages/rpdk/core/init.py", line 140, in init
+    init_module(args, project)
+  File "/home/waz/.local/lib/python3.11/site-packages/rpdk/core/module/init_module.py", line 26, in init_module
+    project.init_module(type_name)
+  File "/home/waz/.local/lib/python3.11/site-packages/rpdk/core/project.py", line 404, in init_module
+    self.write_settings()
+  File "/home/waz/.local/lib/python3.11/site-packages/rpdk/core/project.py", line 387, in write_settings
+    self.overwrite(self.settings_path, _write_module_settings)
+  File "/home/waz/.local/lib/python3.11/site-packages/rpdk/core/project.py", line 461, in overwrite
+    with path.open("w", encoding="utf-8") as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.11/pathlib.py", line 1044, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/home/waz/Documents/AWS/edu/CloudFormation/modules/wazWebstack-1/.rpdk-config'

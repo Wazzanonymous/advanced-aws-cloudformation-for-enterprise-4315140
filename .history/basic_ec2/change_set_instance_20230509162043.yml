@@ -19,11 +19,11 @@ Parameters:
   AMI:
     Description: a reference to the AMI you want
     Type: AWS::EC2::Image::Id
-    Default: ami-02396cdd13e9a1257
+    Default: ami-0b0dcb5067f052a63
   InstanceName:
     Description: The Name tag that will get applied to the instance
     Type: String
-    Default: NginxWebServer
+    Default: NginxDemo
 Resources:
   SecurityGroupHTTPFromWorld:
     Type: AWS::EC2::SecurityGroup
@@ -47,7 +47,7 @@ Resources:
           sudo amazon-linux-extras install -y nginx1
           sudo service nginx start
       ImageId: !Ref AMI
-      InstanceType:
+      InstanceType: t2.micro
         Ref: InstanceType
       SecurityGroupIds:
         - !GetAtt SecurityGroupHTTPFromWorld.GroupId

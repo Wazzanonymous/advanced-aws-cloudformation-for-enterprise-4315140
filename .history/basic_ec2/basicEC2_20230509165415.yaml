@@ -37,7 +37,7 @@ Resources:
           FromPort: 22
           ToPort: 22
           CidrIp: 0.0.0.0/0
-      # Do I need VPC ID?
+      VpcId: !Ref VpcId
   MyInstance:
     Type: AWS::EC2::Instance
     Properties:

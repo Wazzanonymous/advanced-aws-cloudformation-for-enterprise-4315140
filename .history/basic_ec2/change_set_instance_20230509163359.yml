@@ -25,6 +25,11 @@ Parameters:
     Type: String
     Default: NginxWebServer
 Resources:
+  ImageId: !Ref AMI
+  InstanceType:
+    Ref: InstanceType
+  SecurityGroupIds:
+    - !GetAtt SecurityGroupHTTPFromWorld.GroupId
   SecurityGroupHTTPFromWorld:
     Type: AWS::EC2::SecurityGroup
     Properties:
@@ -48,7 +53,7 @@ Resources:
           sudo service nginx start
       ImageId: !Ref AMI
       InstanceType:
-        Ref: InstanceType
+      Ref: InstanceType
       SecurityGroupIds:
         - !GetAtt SecurityGroupHTTPFromWorld.GroupId
       SubnetId:
